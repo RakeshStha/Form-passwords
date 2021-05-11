@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://freellustrustrations.s3.us-east-2.amazonaws.com/free-images/freeimg_47841037freejpg850.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.form {
+    margin-top: 105px;
+    height: 300px;
+    width: 30%;
+    padding: 40px;
+   
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: aqua;
+}
+
+.flex-1 {
+    margin-top: 15px;
+    flex: flex 1;
+}
+
+input {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 35px;
+    padding-right: 35px;
+
+    position: relative;
+    font-size: 16px;
+    height: 35px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    position: absolute;
+    font-size: 35px;
+}
+
+/* input:focus {
+    outline: none;
+    border:  2px solid#218ac3;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+} */
+
+input:focus{
+    outline: none;
+    border-bottom:  2px solid#218ac3;
+    box-shadow: 10px 5px 10px 0px #218ac3;
+}
+
+.inline{
+    display: flex; 
+}
+
+.icon {
+    margin: 5px; 
+    font-size: 25px;
+    display: block;
+}
+
+.icon-slash {  
+    margin: 5px; 
+    font-size: 25px; 
+    display: none;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center; 
+}
+
+.btn {
+    height: 35px;
+    width: 150px;
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    background-color: #218ac3;
+}
+
+.btn:hover {
+    background-color: #21c35f;
+}
