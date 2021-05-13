@@ -16,24 +16,30 @@
 <body>
     <div class="container">
         
-        <div class="form">
+        <form class="form" onSubmit = "return checkPassword()"  >
             <h1>Confirm password</h1>
             <div class="flex-1">
-                <input type="password" name="pwd1" placeholder="******" >
-                    <div class="icon">
-                        <i class="far fa-eye"></i>
-                    </div>
+                <input type="password" onkeyup="trigger(event)"  id = "pwd1" placeholder="******" />
+                    <div class="icon " onclick="iconChanged()">
+                        <i class="far fa-eye icon1" id="icon1"></i>
+                    </div>  
             </div>
+            <div class="indicator">
+                <span class="weak"></span>
+                <span class="medium"></span>
+                <span class="strong"></span>
+            </div>
+            <div class="text"></div>
             <div class="flex-1">
-                <input type="password" name="pwd2" placeholder="******" >
-                    <div class="icon">
-                        <i class="far fa-eye"></i>
+                    <input type="password" name="pwd2" id = "pwd2" placeholder="******" />       
+                    <div class="icon " onclick="iconChanged2()">
+                        <i class="far fa-eye icon2" ></i>
                     </div>
             </div>
-            <div class="btn">
-                <button onclick="checkPassword()" class="btn">Submit</button>
+            <div class=" flex-1 button">
+                <input type="submit" class="btn" value="Submit">
             </div>
-            </div>
+        </form>
         </div>
 </body>
 </html>
