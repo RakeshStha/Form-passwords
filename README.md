@@ -33,5 +33,5 @@ Password Strength Checker, Confirm password checker, Hide and show password
 
 ![8](https://user-images.githubusercontent.com/56125560/118072223-0b0afd00-b3c9-11eb-9a82-27f04e759fa8.JPG)
 
-#-------------------------------------------------- Thank You ! --------------------------------------------------
+#-------------------------------------------------- Thank You ! --------------------------------------------------#
 
